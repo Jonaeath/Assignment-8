@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 100px;
+
+}
+
+.header h1{
+    color: teal;
+}
+.header-two{
+    margin-left: 50px;
+    margin-bottom: 70px ;
+
+}
+
+.header img{
+    height: 100px;
+    width: 100px;
+}
+.myhome{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.home-containe{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: 50px;
+    
+}
+
+.personal{
+    position: sticky;
+    
+}
+
+.break-Time{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    background-color: antiquewhite;
+}
+
